@@ -9,3 +9,4 @@ pytz==2019.3
 six==1.14.0
 SQLAlchemy==1.3.12
 Werkzeug==0.16.0
+flask-httpauth==3.3.0

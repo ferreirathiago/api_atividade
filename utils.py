@@ -1,7 +1,7 @@
 from models import Pessoas, db_session
 
 def insere_pessoas():
-    pessoa = Pessoas(nome='Rafael', idade='30')
+    pessoa = Pessoas(nome='Thiago', idade='35')
     print (pessoa)
     pessoa.save()
 
@@ -23,7 +23,7 @@ def exclui_pessoa():
     pessoa.delete()
 
 if __name__ == '__main__':
-    #insere_pessoas()
+    insere_pessoas()
     #altera_pessoa()
-    exclui_pessoa()
-    consulta_pessoa()
+    #exclui_pessoa()
+    #consulta_pessoa()
